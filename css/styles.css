@@ -1,0 +1,59 @@
+  <style>
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border: 5px solid rgb(255, 0, 0);
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background-color: burlywood;
+}
+.hero img{
+  width:100%;
+}
+div.left, div.middle, div.right{
+  border: 3px dotted green;
+  width: 30%;
+
+}
+aside{
+  display: flex;
+  justify-content: space-between;
+}
+aside img{
+  width: 100%;
+}
+aside{
+  overflow: hidden;
+}
+
+nav{
+  background-color: dimgray;
+}
+
+ul{
+  text-align: center;
+
+}
+
+li{
+  display:inline-block;
+  width: 150px;
+  border: 2px solid white;
+  line-height: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+
+}
+a{
+  color: lightblue;
+  text-decoration: none;
+  border: 1px solid red;
+  display: block;
+}
+  </style>
